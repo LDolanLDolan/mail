@@ -1,0 +1,6 @@
+.vscode/
+mail/__pycache__/
+mail/migrations/
+project3/__pycache__/
+.mail/
+db.sqlite3
