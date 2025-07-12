@@ -18,4 +18,4 @@ COPY . .
 
 RUN python manage.py collectstatic --noinput
 
-CMD ["gunicorn", "mail.mail.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "project3.wsgi:application", "--bind", "0.0.0.0:8000"]
