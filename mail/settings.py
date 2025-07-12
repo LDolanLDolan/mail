@@ -54,6 +54,6 @@ DATABASES = {
 }
 
 
-# Path where static files will be collected
+# Path where static files will be collected added text here to see if it saves
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
