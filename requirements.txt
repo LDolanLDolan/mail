@@ -101,8 +101,6 @@ pyparsing==3.2.3
 python-dateutil==2.9.0.post0
 python-json-logger==3.3.0
 python-multipart==0.0.20
-pytz==2025.2
-pywin32==310
 pywinpty==2.0.15
 PyYAML==6.0.2
 pyzmq==27.0.0
@@ -151,3 +149,4 @@ websocket-client==1.8.0
 websockets==15.0.1
 whitenoise==6.9.0
 widgetsnbextension==4.0.14
+pytz==2023.3
