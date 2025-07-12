@@ -30,3 +30,6 @@ console_command = '/code/manage.py shell'
 
 [deploy]
   release_command = "python manage.py migrate"
+
+[processes]
+app = "gunicorn project3.wsgi --bind 0.0.0.0:8000"
